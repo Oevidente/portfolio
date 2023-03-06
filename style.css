@@ -21,8 +21,16 @@ galeria de projetos centralizada
     max-height: 45px;
   }
   .menu-lateral {
-    padding-right: 20px;
-    margin: 0;
+    /*display: none !important;*/
+  /*  width:10px !important; */
+  padding-right: 20px;
+  }
+  .menu-lateral * {
+    transform: translateX(-29vw);
+  }
+  .menu-lateral:hover * {
+    transition: all 0.5s ease;
+    transform: translateX(0vw);
   }
   .galeria {
     height: 583px !important;
@@ -30,6 +38,7 @@ galeria de projetos centralizada
   .galeria li {
     max-height: 200px;
     max-width: 200px !important;
+    margin:auto;
   }
   footer {
     position: absolute;
