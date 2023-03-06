@@ -84,25 +84,25 @@ header {
 }
 .home {
   background-position: center;
-  background-image: url('../img/home.png');
+  background-image: url('./img/home.png');
 }
 .projetos {
-  background-image: url('../img/projetos.png');
+  background-image: url('./img/projetos.png');
 }
 .github {
   background-position: center;
-  background-image: url('../img/github.png');
+  background-image: url('./img/github.png');
 }
 .instagram {
-  background-image: url('../img/instagram.png');
+  background-image: url('./img/instagram.png');
 }
 .linkedin {
-  background-image: url('../img/linkedin.png');
+  background-image: url('./img/linkedin.png');
 }
 .btn-mode {
   margin-left: auto;
   background: var(--grey-300);
-  background-image: url('../img/dark-mode.png');
+  background-image: url('./img/dark-mode.png');
   border: 0px;
   border-radius: 50%;
   width: 30px;
@@ -169,16 +169,16 @@ li {
   list-style: none;
 }
 .ap-design {
-  background-image: url('../img/ap-design-cover.jpeg');
+  background-image: url('./img/ap-design-cover.jpeg');
 }
 .Sem-Pantim {
-  background-image: url('../img/sem-pantim-cover.jpeg');
+  background-image: url('./img/sem-pantim-cover.jpeg');
 }
 .Cordel {
-  background-image: url('../img/cordel-cover.jpeg');
+  background-image: url('./img/cordel-cover.jpeg');
 }
 .Chrome {
-  background-image: url('../img/chrome-cover.jpeg');
+  background-image: url('./img/chrome-cover.jpeg');
 }
 a {
   text-decoration: none;
@@ -220,5 +220,5 @@ footer.dark {
 .btn-mode:hover {
   transition: all 0.5s ease;
   background: var(--grey-100);
-  background-image: url('../img/dark-mode-hover.png');
+  background-image: url('./img/dark-mode-hover.png');
 }
