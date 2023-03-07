@@ -41,3 +41,59 @@ if (mediaQuery.matches) {
     chrome.style.width = '68.291vw';
   });
 }
+/* -------------------------------------------------- */
+/* itens do menu */
+let menuHome = document.querySelector('.menu-home');
+let menuProjetos = document.querySelector('.menu-projetos');
+let menuGithub = document.querySelector('.menu-github');
+let menuInstagram = document.querySelector('.menu-instagram');
+let menuLinkedin = document.querySelector('.menu-linkedin');
+
+/* spans com titulo */
+let homeLabel = document.querySelector('.span-home');
+let projetosLabel = document.querySelector('.span-projetos');
+let githubLabel = document.querySelector('.span-github');
+let instagramLabel = document.querySelector('.span-instagram');
+let linkedinLabel = document.querySelector('.span-linkedin');
+let article = document.querySelector('article');
+/* 128.4375px */
+menuHome.addEventListener('mouseenter', function () {
+  homeLabel.style.opacity = '100';
+  homeLabel.style.top = '128.4375px';
+});
+menuHome.addEventListener('mouseleave', function () {
+  homeLabel.style.opacity = '0';
+  homeLabel.style.top = '68.4375px';
+});
+menuProjetos.addEventListener('mouseenter', function () {
+  projetosLabel.style.opacity = '100';
+  projetosLabel.style.top = '128.4375px';
+});
+menuProjetos.addEventListener('mouseleave', function () {
+  projetosLabel.style.opacity = '0';
+  projetosLabel.style.top = '68.4375px';
+});
+menuGithub.addEventListener('mouseenter', function () {
+  githubLabel.style.opacity = '100';
+  githubLabel.style.top = '128.4375px';
+});
+menuGithub.addEventListener('mouseleave', function () {
+  githubLabel.style.opacity = '0';
+  githubLabel.style.top = '68.4375px';
+});
+menuInstagram.addEventListener('mouseenter', function () {
+  instagramLabel.style.opacity = '100';
+  instagramLabel.style.top = '128.4375px';
+});
+menuInstagram.addEventListener('mouseleave', function () {
+  instagramLabel.style.opacity = '0';
+  instagramLabel.style.top = '68.4375px';
+});
+menuLinkedin.addEventListener('mouseenter', function () {
+  linkedinLabel.style.opacity = '100';
+  linkedinLabel.style.top = '128.4375px';
+});
+menuLinkedin.addEventListener('mouseleave', function () {
+  linkedinLabel.style.opacity = '0';
+  linkedinLabel.style.top = '68.4375px';
+});

@@ -20,6 +20,15 @@ galeria de projetos centralizada
     max-width: 45px;
     max-height: 45px;
   }
+  article {
+    max-width: 280px;
+  }
+  .span-home,
+  .span-projetos,
+  .span-github,
+  .span-instagram,
+  .span-linkedin {
+  }
   .menu-lateral {
     /*display: none !important;*/
     /*  width:10px !important; */
@@ -124,6 +133,62 @@ header {
 .linkedin {
   background-image: url('./img/linkedin.png');
 }
+#labels {
+  margin: 0 auto;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: -1;
+  top: 128.4375px;
+}
+.span-home,
+.span-projetos,
+.span-github,
+.span-instagram,
+.span-linkedin {
+  transition: all 0.5s ease;
+  opacity: 100;
+  width: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--grey-100);
+  background: var(--grey-300);
+  border-radius: 2px;
+  border-left: 5px solid var(--grey-300);
+  border-right: 5px solid var(--grey-300);
+}
+.margem {
+  width: 30px;
+  opacity: 0;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  align-self: center;
+  align-content: center;
+  margin-left: auto;
+  /* top: 128.4375px; */
+}
+/* .span-home {
+  padding-left: 7px;
+}
+.span-projetos {
+  padding-left: 7px;
+}
+.span-github {
+  padding-left: 7px;
+}
+.span-instagram {
+  padding-right: 7px;
+}
+.span-linkedin {
+  padding-left: 107px;
+} */
 .btn-mode {
   margin-left: auto;
   background: var(--grey-300);
