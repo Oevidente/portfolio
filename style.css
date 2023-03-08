@@ -28,6 +28,7 @@ galeria de projetos centralizada
   .span-github,
   .span-instagram,
   .span-linkedin {
+    opacity: 100;
   }
   .menu-lateral {
     /*display: none !important;*/
@@ -150,7 +151,7 @@ header {
 .span-instagram,
 .span-linkedin {
   transition: all 0.5s ease;
-  opacity: 100;
+  opacity: 0;
   width: 50px;
   text-align: center;
   font-size: 0.9rem;
